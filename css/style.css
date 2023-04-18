@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body{
+    background-color: #000;
+    color: #FFF;
+    height: 85vh;
+    box-sizing: border-box;
+}
+.cor__html{
+    color: #FF2E00;
+}
+.cor__css{
+    color: #1400FC;
+}
+.cor__javascript{
+    color: #FAFF00;
+}
+.cor__python{
+    color: #CAAA00;
+}
+.cor__react{
+    color: #00FF19;
+}
+.cor__reactNative{
+    color: #026700;
+}
+.cor__java{
+    color: #FD4949;
+}
+.cor__vermelha{
+    color: #FF0000;
+}
+.biografia{
+    display: flex;
+    margin:3% 10%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+.biografia__conteudo{
+    width: 810px;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+.biografia__conteudo__titulo{
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+}
+.biografia__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+}
+.biografia__imgLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.biografia__links{
+    display: flex;
+    width: 66%;
+    margin: 0% 15%;
+    box-sizing: border-box;
+    gap: 176px;   
+}
+.biografia__conteudo__link{
+    text-decoration: none;
+    text-align: center;
+    background-color: #0500FF;
+    padding:20px 30px;     
+    color:#fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    border-radius: 16px;
+}
