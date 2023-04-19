@@ -5,6 +5,73 @@ body{
     height: 85vh;
     box-sizing: border-box;
 }
+.cabecalho{
+    padding: 0% 0;
+}
+.projetos__conteudo{
+    width: 100%;
+    text-align: center;
+}
+.projetos__conteudo__titulo{
+    color: #CAAA00;
+    font-size: 40px;
+    margin: 2% 0;
+    font-family: 'Jost',sans-serif;
+    font-weight: 400;
+}
+.projetos__grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 5%;
+    gap: 10%;
+}
+.projetos__grid__elementos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 25px;
+    width: 100%;
+    
+}
+.projetos__grid__elementos__titulo{
+    font-size: 40px;
+}
+.projetos__grid__elementos__btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Jost',sans-serif;
+    
+}
+.projetos__grid__elementos__btn:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    color: #f7b7b7;
+    
+}
+.cor__verde{
+    color:#00FF19;
+}
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.cabecalho__menu__link{
+    padding: 1% 8%;
+    text-decoration: none;
+    font-family: 'Jost',sans-serif;
+    font-size: 30px;
+    color: #FF0000;
+
+}
+.cabecalho__menu__link:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
 .cor__html{
     color: #FF2E00;
 }
@@ -31,13 +98,14 @@ body{
 }
 .biografia{
     display: flex;
-    margin:3% 10%;
+    margin:0% 10%;
+    padding: 2% 1%;
     align-items: center;
     justify-content: space-between;
     gap: 64px;
 }
 .biografia__conteudo{
-    width: 810px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 49px;
@@ -47,7 +115,7 @@ body{
     font-family: 'Jost', sans-serif;
 }
 .biografia__conteudo__texto{
-    font-size: 24px;
+    font-size: 23px;
     font-family: 'Jost', sans-serif;
 }
 .biografia__imgLinks{
@@ -66,7 +134,7 @@ body{
     text-decoration: none;
     text-align: center;
     background-color: #0500FF;
-    padding:20px 30px;     
+    padding:15px 25px;     
     color:#fff;
     font-family: 'Jost', sans-serif;
     font-size: 30px;
