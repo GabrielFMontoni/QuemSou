@@ -151,6 +151,15 @@ body{
         margin-top: 50px;
         justify-content: center;
         align-items: center;
+        padding: 10% 2%;
+    }
+    .projetos__conteudo__titulo{
+        padding: 20px;
+        font-size: 33px;
+    }
+    .cabecalho__menu__link{
+        font-size: 23px;
+        padding: 1% 0;
     }
     .projetos__grid__elementos__btn{
         color: #FF0000;
@@ -161,6 +170,10 @@ body{
         width: 80%;
         margin: 0 5%;
     }   
+    .projetos__grid__elementos__titulo{
+        font-size: 30px;
+    }
+    
     .biografia__links{
         flex-direction: column;
         gap: 20px;
