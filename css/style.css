@@ -140,3 +140,40 @@ body{
     font-size: 30px;
     border-radius: 16px;
 }
+.biografia__conteudo__link:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media (max-width:1200px){
+    .projetos__grid{
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .projetos__grid__elementos__btn{
+        color: #FF0000;
+    }
+    .projetos__grid__elementos{
+        padding: 3% 5%;
+        border: 2px solid #FAFF00;
+        width: 80%;
+        margin: 0 5%;
+    }   
+    .biografia__links{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .biografia{
+        flex-direction: column;
+    }
+    .biografia__conteudo{
+        padding: 5%;
+        width: auto;
+    }
+    .biografia__links{
+        padding-bottom: 5%;
+    }
+
+}
