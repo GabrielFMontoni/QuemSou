@@ -11,6 +11,13 @@ Este projeto é um site para fins de treino e divulgação/projeção de conheci
 ## Instalação
 Abra o arquivo _"index.html"_ no seu navegador com os outros arquivos presentes na mesma pasta, para que o estilo seja reconhecido.
 
+## Acesso ao  projeto
+<div> 
+  <a href="https://quem-e-gabriel-montoni.vercel.app/index.html">
+   Clique aqui para abrir o site
+   </a>
+</div>
+
 ## Tecnologia Utilizada
 <div style="display: inline_block" align="center"><br>
   <center><img align="center" alt="HTML" height="100" width="100" src="https://user-images.githubusercontent.com/121250213/233282210-2732ec05-13f8-4160-a2ff-0f75621f0228.png">
